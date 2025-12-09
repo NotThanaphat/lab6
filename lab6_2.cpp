@@ -47,7 +47,7 @@ int main(){
     double rad2 = deg2rad(deg2);
 
     double xComp = findXComponent(len1, rad1, len2, rad2);
-    double yComp = findYComponent(len1, rad1, len2, len2);  // <<=== ERROR ตรงนี้ต้องแก้เป็น rad2
+    double yComp = findYComponent(len1, rad1, len2, rad2); 
 
     double resultLength = pythagoras(xComp, yComp);
     double resultDirection = rad2deg(atan2(yComp, xComp));

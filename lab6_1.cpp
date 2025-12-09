@@ -23,7 +23,6 @@ int main() {
     }
 
     cout << "#Even numbers = " << evenCount << endl;
-    cout << endl;
     cout << "#Odd numbers = " << oddCount << endl;
 
     return 0;
